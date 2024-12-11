@@ -36,3 +36,4 @@ data/*
 models/*
 !models/.gitkeep
 *.log
+models/
