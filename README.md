@@ -24,3 +24,10 @@ An advanced video analysis tool that automatically generates comprehensive video
 - Quick video understanding
 
 Built with PyTorch, OpenCV, and modern AI frameworks. Suitable for researchers, developers, and content creators looking for efficient video content analysis solutions.
+
+graph TD;
+    A["输入查询 (Start)"] --> B["生成候选回答"];
+    B --> C["计算奖励"];
+    C --> D["计算相对优势值 A_i"];
+    D --> E["更新策略"];
+    E --> F["优化后的策略"];
